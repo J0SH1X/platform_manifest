@@ -1,0 +1,35 @@
+The Android Open Source Project
+===========
+7.0 Nougat (LG G4)
+-----------
+*** **Warning** ***
+
+Work in progress. Could create black holes.
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the AOSP trees, use a command like this:
+
+    repo init -u git://github.com/AOSP-G4/platform_manifest.git -b android-7.0-dev
+
+Then to sync up:
+
+    repo sync
+
+Build
+---------------
+
+Initialize the build environment:
+
+    source build/envsetup.sh
+
+Pick the target device:
+
+    lunch aosp_h815-userdebug
+
+Start:
+
+    make otapackage
