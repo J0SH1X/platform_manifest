@@ -13,6 +13,7 @@
   <project path="packages/apps/Settings" name="AOSP-G4/platform_packages_apps_settings" groups="pdk-fs" remote="github" revision="android-7.0-dev" />
   <project path="system/core" name="AOSP-G4/platform_system_core" groups="pdk" remote="github" revision="android-7.0-dev" />
   <project path="system/extras" name="AOSP-G4/platform_system_extras" groups="pdk" remote="github" revision="android-7.0-dev" />
+  <project path="system/media" name="AOSP-G4/platform_system_media" groups="pdk" remote="github" revision="android-7.0-dev" />
   <project path="system/sepolicy" name="AOSP-G4/platform_system_sepolicy" groups="pdk" remote="github" revision="android-7.0-dev" />
   <project path="system/vold" name="AOSP-G4/platform_system_vold" groups="pdk" remote="github" revision="android-7.0-dev" />
   <project path="vendor/aosp" name="AOSP-G4/platform_vendor_aosp" remote="github" revision="android-7.0-dev" />
